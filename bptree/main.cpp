@@ -45,7 +45,7 @@ int main() {
 
 
      std::fstream fileStream;  // 文件流用于读写磁盘
-     std::string filePath = "/Users/zuozhiyi/Downloads/bptree/games.txt";  // 存储磁盘文件路径
+     std::string filePath = "/Users/zuozhiyi/Downloads/bptree/games.txt;";  // 存储磁盘文件路径
      fileStream.open(filePath, std::ios::in | std::ios::out | std::ios::binary);
      //打开失败异常处理
      if (!fileStream.is_open()) {
