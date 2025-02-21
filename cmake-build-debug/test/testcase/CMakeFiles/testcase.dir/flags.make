@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DGOOGLE_TEST
 
-CXX_INCLUDES = -I/Users/zuozhiyi/Downloads/bptree/test/testcase/. -I/Users/zuozhiyi/Downloads/bptree/test/testcase/../../bptree/include -I/usr/local/include -isystem /Users/zuozhiyi/Downloads/bptree/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/zuozhiyi/Downloads/bptree/cmake-build-debug/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/Users/zuozhiyi/Downloads/bptree/proj1/test/testcase/. -I/Users/zuozhiyi/Downloads/bptree/proj1/test/testcase/../../bptree/include -I/usr/local/include -isystem /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug/_deps/googletest-src/googletest
 
 CXX_FLAGSarm64 =  -std=c++14 -Wreturn-type -D_GLIBCXX_USE_NANOSLEEP -stdlib=libc++ -std=c++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk   -Wno-old-style-cast -Wreturn-type
 

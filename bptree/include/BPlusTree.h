@@ -1,5 +1,5 @@
 //
-// Created by zhuchaodi on 2025/2/20.
+// Created on 2025/2/20.
 //
 
 #ifndef BPLUSTREE_H
@@ -35,7 +35,7 @@ public:
     ~BPlusTree();
     //获取记录个数
     int getPageNums();
-    int getRecordNums();
+    int getRecordNums(NodeKey start, NodeKey end);
     // 插入键值对
     void insert(NodeKey key, const NodeValue& value);
 

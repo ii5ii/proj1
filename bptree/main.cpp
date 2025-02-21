@@ -9,7 +9,7 @@
 void task1(BPlusTree &tree) {
     std::cout << "Task1:" << std::endl;
     std::cout << "Size of Record:" << sizeof(RecordKey) << std::endl;
-    std::cout << "Number of records:" << tree.getRecordNums() << std::endl;
+    std::cout << "Number of records:" << tree.getRecordNums(RecordKey{-1, 0}, RecordKey{-1, 2}) << std::endl;
     std::cout << "Size of Block:" << PAGE_SIZE << " Block Nums:" << tree.getPageNums() << std::endl;
     std::cout << "Task1 done." << std::endl;
     std::cout << std::endl;
@@ -29,7 +29,8 @@ void task2(BPlusTree &tree) {
 void task3(BPlusTree &tree) {
     std::cout << "Task3:" << std::endl;
 
-    auto vec = tree.rangeSearch(RecordKey{.id = -1, .fg3_pct_home = 0.6}, RecordKey{.id = -1, .fg3_pct_home = 0.9});
+    RecordKey start, end;
+    auto vec = tree.rangeSearch(RecordKey{-1, 0.6}, RecordKey{-1, 0.9});
     std::cout << "search those movies with the attribute \"FG_PCT_home\" from 0.6 to 0.9:" << std::endl;
     double tmp = 0;
     for (auto rec : vec) {
@@ -45,7 +46,7 @@ int main() {
 
 
      std::fstream fileStream;  // 文件流用于读写磁盘
-     std::string filePath = "/Users/zuozhiyi/Downloads/bptree/games.txt;";  // 存储磁盘文件路径
+     std::string filePath = "/Users/zuozhiyi/Downloads/bptree/proj1/games.txt";  // 存储磁盘文件路径
      fileStream.open(filePath, std::ios::in | std::ios::out | std::ios::binary);
      //打开失败异常处理
      if (!fileStream.is_open()) {

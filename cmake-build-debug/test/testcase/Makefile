@@ -57,10 +57,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zuozhiyi/Downloads/bptree
+CMAKE_SOURCE_DIR = /Users/zuozhiyi/Downloads/bptree/proj1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zuozhiyi/Downloads/bptree/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/zuozhiyi/Downloads/bptree/cmake-build-debug/CMakeFiles /Users/zuozhiyi/Downloads/bptree/cmake-build-debug/test/testcase//CMakeFiles/progress.marks
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/testcase/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zuozhiyi/Downloads/bptree/cmake-build-debug/CMakeFiles 0
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug/CMakeFiles /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug/test/testcase//CMakeFiles/progress.marks
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/testcase/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/testcase/clean
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/testcase/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/testcase/preinstall
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/testcase/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/testcase/preinstall
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/testcase/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/testcase/CMakeFiles/testcase.dir/rule:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/testcase/CMakeFiles/testcase.dir/rule
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/testcase/CMakeFiles/testcase.dir/rule
 .PHONY : test/testcase/CMakeFiles/testcase.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ testcase: test/testcase/CMakeFiles/testcase.dir/rule
 
 # fast build rule for target.
 testcase/fast:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/build
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/build
 .PHONY : testcase/fast
 
 InsertCheck.o: InsertCheck.cpp.o
@@ -190,7 +190,7 @@ InsertCheck.o: InsertCheck.cpp.o
 
 # target to build an object file
 InsertCheck.cpp.o:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/InsertCheck.cpp.o
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/InsertCheck.cpp.o
 .PHONY : InsertCheck.cpp.o
 
 InsertCheck.i: InsertCheck.cpp.i
@@ -198,7 +198,7 @@ InsertCheck.i: InsertCheck.cpp.i
 
 # target to preprocess a source file
 InsertCheck.cpp.i:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/InsertCheck.cpp.i
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/InsertCheck.cpp.i
 .PHONY : InsertCheck.cpp.i
 
 InsertCheck.s: InsertCheck.cpp.s
@@ -206,7 +206,7 @@ InsertCheck.s: InsertCheck.cpp.s
 
 # target to generate assembly for a file
 InsertCheck.cpp.s:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/InsertCheck.cpp.s
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/InsertCheck.cpp.s
 .PHONY : InsertCheck.cpp.s
 
 LoadCheck.o: LoadCheck.cpp.o
@@ -214,7 +214,7 @@ LoadCheck.o: LoadCheck.cpp.o
 
 # target to build an object file
 LoadCheck.cpp.o:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/LoadCheck.cpp.o
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/LoadCheck.cpp.o
 .PHONY : LoadCheck.cpp.o
 
 LoadCheck.i: LoadCheck.cpp.i
@@ -222,7 +222,7 @@ LoadCheck.i: LoadCheck.cpp.i
 
 # target to preprocess a source file
 LoadCheck.cpp.i:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/LoadCheck.cpp.i
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/LoadCheck.cpp.i
 .PHONY : LoadCheck.cpp.i
 
 LoadCheck.s: LoadCheck.cpp.s
@@ -230,7 +230,7 @@ LoadCheck.s: LoadCheck.cpp.s
 
 # target to generate assembly for a file
 LoadCheck.cpp.s:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/LoadCheck.cpp.s
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/LoadCheck.cpp.s
 .PHONY : LoadCheck.cpp.s
 
 __/__/bptree/src/BPlusTree.o: __/__/bptree/src/BPlusTree.cpp.o
@@ -238,7 +238,7 @@ __/__/bptree/src/BPlusTree.o: __/__/bptree/src/BPlusTree.cpp.o
 
 # target to build an object file
 __/__/bptree/src/BPlusTree.cpp.o:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/BPlusTree.cpp.o
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/BPlusTree.cpp.o
 .PHONY : __/__/bptree/src/BPlusTree.cpp.o
 
 __/__/bptree/src/BPlusTree.i: __/__/bptree/src/BPlusTree.cpp.i
@@ -246,7 +246,7 @@ __/__/bptree/src/BPlusTree.i: __/__/bptree/src/BPlusTree.cpp.i
 
 # target to preprocess a source file
 __/__/bptree/src/BPlusTree.cpp.i:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/BPlusTree.cpp.i
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/BPlusTree.cpp.i
 .PHONY : __/__/bptree/src/BPlusTree.cpp.i
 
 __/__/bptree/src/BPlusTree.s: __/__/bptree/src/BPlusTree.cpp.s
@@ -254,7 +254,7 @@ __/__/bptree/src/BPlusTree.s: __/__/bptree/src/BPlusTree.cpp.s
 
 # target to generate assembly for a file
 __/__/bptree/src/BPlusTree.cpp.s:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/BPlusTree.cpp.s
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/BPlusTree.cpp.s
 .PHONY : __/__/bptree/src/BPlusTree.cpp.s
 
 __/__/bptree/src/DiskManager.o: __/__/bptree/src/DiskManager.cpp.o
@@ -262,7 +262,7 @@ __/__/bptree/src/DiskManager.o: __/__/bptree/src/DiskManager.cpp.o
 
 # target to build an object file
 __/__/bptree/src/DiskManager.cpp.o:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/DiskManager.cpp.o
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/DiskManager.cpp.o
 .PHONY : __/__/bptree/src/DiskManager.cpp.o
 
 __/__/bptree/src/DiskManager.i: __/__/bptree/src/DiskManager.cpp.i
@@ -270,7 +270,7 @@ __/__/bptree/src/DiskManager.i: __/__/bptree/src/DiskManager.cpp.i
 
 # target to preprocess a source file
 __/__/bptree/src/DiskManager.cpp.i:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/DiskManager.cpp.i
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/DiskManager.cpp.i
 .PHONY : __/__/bptree/src/DiskManager.cpp.i
 
 __/__/bptree/src/DiskManager.s: __/__/bptree/src/DiskManager.cpp.s
@@ -278,7 +278,7 @@ __/__/bptree/src/DiskManager.s: __/__/bptree/src/DiskManager.cpp.s
 
 # target to generate assembly for a file
 __/__/bptree/src/DiskManager.cpp.s:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/DiskManager.cpp.s
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/DiskManager.cpp.s
 .PHONY : __/__/bptree/src/DiskManager.cpp.s
 
 __/__/bptree/src/def.o: __/__/bptree/src/def.cpp.o
@@ -286,7 +286,7 @@ __/__/bptree/src/def.o: __/__/bptree/src/def.cpp.o
 
 # target to build an object file
 __/__/bptree/src/def.cpp.o:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/def.cpp.o
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/def.cpp.o
 .PHONY : __/__/bptree/src/def.cpp.o
 
 __/__/bptree/src/def.i: __/__/bptree/src/def.cpp.i
@@ -294,7 +294,7 @@ __/__/bptree/src/def.i: __/__/bptree/src/def.cpp.i
 
 # target to preprocess a source file
 __/__/bptree/src/def.cpp.i:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/def.cpp.i
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/def.cpp.i
 .PHONY : __/__/bptree/src/def.cpp.i
 
 __/__/bptree/src/def.s: __/__/bptree/src/def.cpp.s
@@ -302,7 +302,7 @@ __/__/bptree/src/def.s: __/__/bptree/src/def.cpp.s
 
 # target to generate assembly for a file
 __/__/bptree/src/def.cpp.s:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/def.cpp.s
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/__/__/bptree/src/def.cpp.s
 .PHONY : __/__/bptree/src/def.cpp.s
 
 main.o: main.cpp.o
@@ -310,7 +310,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/main.cpp.o
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -318,7 +318,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/main.cpp.i
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -326,7 +326,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/main.cpp.s
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(MAKE) $(MAKESILENT) -f test/testcase/CMakeFiles/testcase.dir/build.make test/testcase/CMakeFiles/testcase.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -372,6 +372,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/zuozhiyi/Downloads/bptree/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

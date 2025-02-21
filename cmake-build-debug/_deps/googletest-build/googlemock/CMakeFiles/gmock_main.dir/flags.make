@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /Users/zuozhiyi/Downloads/bptree/cmake-build-debug/_deps/googletest-src/googlemock/include -isystem /Users/zuozhiyi/Downloads/bptree/cmake-build-debug/_deps/googletest-src/googlemock -isystem /Users/zuozhiyi/Downloads/bptree/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/zuozhiyi/Downloads/bptree/cmake-build-debug/_deps/googletest-src/googletest
+CXX_INCLUDES = -isystem /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug/_deps/googletest-src/googlemock/include -isystem /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug/_deps/googletest-src/googlemock -isystem /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug/_deps/googletest-src/googletest/include -isystem /Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug/_deps/googletest-src/googletest
 
 CXX_FLAGSarm64 = -std=c++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk  -DGTEST_HAS_PTHREAD=1  
 

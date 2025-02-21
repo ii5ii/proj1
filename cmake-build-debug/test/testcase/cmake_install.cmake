@@ -1,4 +1,4 @@
-# Install script for directory: /Users/zuozhiyi/Downloads/bptree/test/testcase
+# Install script for directory: /Users/zuozhiyi/Downloads/bptree/proj1/test/testcase
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,13 +38,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/zuozhiyi/Downloads/bptree/cmake-build-debug/_deps/googletest-build/cmake_install.cmake")
+  # Include the install script for each subdirectory.
+  include("/Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug/_deps/googletest-build/cmake_install.cmake")
+
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/zuozhiyi/Downloads/bptree/cmake-build-debug/test/testcase/install_local_manifest.txt"
+  file(WRITE "/Users/zuozhiyi/Downloads/bptree/proj1/cmake-build-debug/test/testcase/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/zuozhiyi/Downloads/bptree/CMakeLists.txt"
-  "/Users/zuozhiyi/Downloads/bptree/bptree/CMakeLists.txt"
+  "/Users/zuozhiyi/Downloads/bptree/proj1/CMakeLists.txt"
+  "/Users/zuozhiyi/Downloads/bptree/proj1/bptree/CMakeLists.txt"
   "CMakeFiles/3.31.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.31.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.31.5/CMakeSystem.cmake"
@@ -21,8 +21,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "_deps/googletest-src/googletest/cmake/gtest.pc.in"
   "_deps/googletest-src/googletest/cmake/gtest_main.pc.in"
   "_deps/googletest-src/googletest/cmake/internal_utils.cmake"
-  "/Users/zuozhiyi/Downloads/bptree/test/CMakeLists.txt"
-  "/Users/zuozhiyi/Downloads/bptree/test/testcase/CMakeLists.txt"
+  "/Users/zuozhiyi/Downloads/bptree/proj1/test/CMakeLists.txt"
+  "/Users/zuozhiyi/Downloads/bptree/proj1/test/testcase/CMakeLists.txt"
   "/opt/homebrew/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "/opt/homebrew/share/cmake/Modules/CMakeCCompiler.cmake.in"
   "/opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c"

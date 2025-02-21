@@ -1,5 +1,5 @@
 //
-// Created by zhuchaodi on 2025/2/20.
+// Created on 2025/2/20.
 //
 
 #include "BPlusTree.h"
@@ -149,8 +149,8 @@ int BPlusTree::getPageNums() {
     return disk_manager_.getTotalPages();
 }
 
-int BPlusTree::getRecordNums() {
-    auto val = rangeSearch(RecordKey{.id = -1, .fg3_pct_home = 0}, RecordKey{.id = -1, .fg3_pct_home = 2});
+int BPlusTree::getRecordNums(NodeKey start, NodeKey end) {
+    auto val = rangeSearch(start, end);
     return val.size();
 }
 
